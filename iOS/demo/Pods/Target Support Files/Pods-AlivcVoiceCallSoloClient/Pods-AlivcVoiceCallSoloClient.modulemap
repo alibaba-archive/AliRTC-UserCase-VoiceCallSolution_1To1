@@ -1,0 +1,6 @@
+framework module Pods_AlivcVoiceCallSoloClient {
+  umbrella header "Pods-AlivcVoiceCallSoloClient-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,1223 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		022628ADCFBA27E261156364AF91E190 /* AlivcVoiceCallSolo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DC5BF53E333356EF1481891426D06C14 /* AlivcVoiceCallSolo-dummy.m */; };
+		09A52D43A0419B7FBD34E41B22CF18B5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3FF76575484F4756F7FEDEACB74E220 /* Foundation.framework */; };
+		0ED49930A4C84955961244C919FAA970 /* AlivcIndicatorButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AB6CC24CDCDA2111469A8C8FB55024B /* AlivcIndicatorButton.m */; };
+		15803E9D758A04D796936C3FB9C5A2E0 /* AlivcVoiceCallChattingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 384148530E19721DA87FEBC55E27F01E /* AlivcVoiceCallChattingViewController.m */; };
+		18FFF2D023622975784EF8157DE78C25 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3FF76575484F4756F7FEDEACB74E220 /* Foundation.framework */; };
+		22E22ED5B0CAACAF54471E5D4859F23B /* AlivcVoiceCallSolo.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 311B06376BA1BCCCC43F815BA01D22B3 /* AlivcVoiceCallSolo.bundle */; };
+		272A022EEAE8C453F1E933F5900B957A /* AlivcPresentTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = B55E5AF26D18E1041F221FEF233D7F7D /* AlivcPresentTransition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		27A2EC07F2AEA62686F4FC7E734BFABA /* AliBaseHttpClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EC012C904CA399930BE9C18ACA01F83 /* AliBaseHttpClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2ED310995748E1E7FDB3229E4FA0C06A /* AliRequestList.m in Sources */ = {isa = PBXBuildFile; fileRef = A545BDFFFFD3A0F9582CF89DC046FF3C /* AliRequestList.m */; };
+		364D77586349949122EBF6D97A7FB95F /* AlivcPanInteractiveTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C5C22E5C167D34CAFDDECA51D21A24F /* AlivcPanInteractiveTransition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3767ED1ABC330FCDE90EDEC89711E244 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = E7083347E65D30C154B95BD9B41026B6 /* MBProgressHUD.m */; };
+		3A0AB6F9D381A7A866029436BA069FED /* AlivcVoiceCallChannelViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B3D0DC225CBC75BD5D5C7E4766CAF2F /* AlivcVoiceCallChannelViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3CD5FC9C807DED06053C19D42A1BAF72 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF7B4C2911ABDFCFE48F8175F7304A81 /* CoreGraphics.framework */; };
+		437359FB58E67F5EBAAF4A5CC3CB7F55 /* AliRequestList.h in Headers */ = {isa = PBXBuildFile; fileRef = 28A6606C2CD4A4F8C19C835318BD17B5 /* AliRequestList.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4BDF08B7D6AE22975EF57DA7F7BF7FFD /* AlivcDismissTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = E50917B19ED1F6C2D78D9DF3EAE5BB10 /* AlivcDismissTransition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4D034FD669405847426C0C64520583A5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3FF76575484F4756F7FEDEACB74E220 /* Foundation.framework */; };
+		50F056758F3013BF890F25D3A7916CE0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3FF76575484F4756F7FEDEACB74E220 /* Foundation.framework */; };
+		573995DB82413232B16E57154BDA30D5 /* AFNetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DFD86F6BE36161EE0AA641D436BA7442 /* AFNetworking-dummy.m */; };
+		5894638E2EFCE727B792F74A7ACB3AD3 /* AlivcVoiceCallSettingViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E9886E1646A0089370C28572D405D5C /* AlivcVoiceCallSettingViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		60921674BBF80E51432174CF73F484A8 /* NSBundle+AlivcVoiceCallSolo.m in Sources */ = {isa = PBXBuildFile; fileRef = 66C80321F962B92BDC7A669CBAF8ADC1 /* NSBundle+AlivcVoiceCallSolo.m */; };
+		655B6966723AEB96514D658C1175D686 /* AlivcVideoCallUserAuthrization.h in Headers */ = {isa = PBXBuildFile; fileRef = BBFFBC9C48608319B46E4C9A20BDAAD9 /* AlivcVideoCallUserAuthrization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6D099AAF6A96ACFB9865158182F7A4BD /* AlivcVideoCallUserAuthrization.m in Sources */ = {isa = PBXBuildFile; fileRef = A39A4422EAD2E7E0BC6496BCD347F8E4 /* AlivcVideoCallUserAuthrization.m */; };
+		70B277A157ED7556AC1A691C79FD4C1A /* AlivcDismissTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C2AD4BC9A9B7B94BDDFBDBFEDB2B867 /* AlivcDismissTransition.m */; };
+		735A249D8014EE82095F441B1D543653 /* AlivcVoiceCallChattingViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F435AC5754BE5F8DEA64237E6ECA56B0 /* AlivcVoiceCallChattingViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7875715F3F022584B87ABE312B15EE93 /* Pods-AlivcVoiceCallSoloClient-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D8ED91150E0D8F5F5A4972C6DBD31EBB /* Pods-AlivcVoiceCallSoloClient-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		819857EBE78E8541B889BDBB9F88D61C /* MBProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71538D10F769C05E92D2EC2812CE3D8B /* MBProgressHUD.framework */; };
+		829F0BC37A458596F6823FF400F4B075 /* AlivcVoiceCallChannelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BDC29928588FD833056DB7DF13D80A3 /* AlivcVoiceCallChannelViewController.m */; };
+		96555689DA4624082FAC00E6E40F3AA3 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEBAA69554D764A32B41EB75F0F1E53A /* QuartzCore.framework */; };
+		987220C6D6C509BE6273F7F3D9EC0385 /* NSBundle+AlivcVoiceCallSolo.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EA471397379D59929D05DD3CCAD5D30 /* NSBundle+AlivcVoiceCallSolo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9D345D273C3310AD6F22FFDBDD5A39D5 /* AFNetworking-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F3C763DCCD711B047253863DE31F744D /* AFNetworking-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A028E46CF7F3393036D04566B937FA24 /* AFNetworkReachabilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = AD6A48BDB2BB67BDE37CACEF91718B12 /* AFNetworkReachabilityManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A1BC2ADC09E57EFB184D29E37832C258 /* AlivcPresentTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 0991FA2E1FB2D199B651485CA2044811 /* AlivcPresentTransition.m */; };
+		A5EA4CCB3DB99BE68B0013CF58AED9B5 /* MBProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 854E5FAA839A6A55805B23613A22AEAD /* MBProgressHUD-dummy.m */; };
+		A5EF4B07C6D9221115D75B24C8A60F6C /* AliBaseHttpClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B37727AA0908233B04F8FEDA9C7DFAE /* AliBaseHttpClient.m */; };
+		B2B565586C0B252E7B5D6C9F51E09334 /* AlivcIndicatorButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A62189B91A3952680F9FC4B293F41C0 /* AlivcIndicatorButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0C1BFB22AB61708E09E60B117CBDE29 /* MBProgressHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4795929799D86104E5D262BFCB3C57E8 /* MBProgressHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C3637C782091C50F420A7A95F790CE3E /* UIViewController+Alert.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D23CD0D0E2E31462EF9A52F3592674F /* UIViewController+Alert.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C7B27E9C1954A218A97222C6E7301B20 /* MBProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = B76D96ED83F12404D8500A7B5C47498F /* MBProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DAC882FE339410B192AB24CA5057C5C6 /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18F17F24DA1331BDE52825C32DCB0C68 /* AFNetworking.framework */; };
+		DD86D33A1F80B04EBD1CDCBE56C072C5 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5944D05E07429A0FAD41586941ED8AA1 /* SystemConfiguration.framework */; };
+		E04F0554991BD64659BC489A6F7036FA /* AlivcVoiceCallSolo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 914D6583209E13125B24F0326D5AC8D8 /* AlivcVoiceCallSolo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E24F4AE16F96972B99AA6BD0DD314537 /* AlivcVoiceCallSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A030387B0021CA0B17218033E1C5A7AF /* AlivcVoiceCallSettingViewController.m */; };
+		E6E31821EBA15E53753B8D0A7A66EB9C /* Pods-AlivcVoiceCallSoloClient-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6F41B43FB0133A5578094026831F77 /* Pods-AlivcVoiceCallSoloClient-dummy.m */; };
+		E81FCE7970B4B65B1C0F8AF0301DDE04 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A690008BE8437259979F9A4B9DE98C3E /* AFNetworkReachabilityManager.m */; };
+		EA958A07AACBE31F531AEF9E344CDEE5 /* UIViewController+Alert.m in Sources */ = {isa = PBXBuildFile; fileRef = 44B2ECF03288C888FB64F090A1A30D89 /* UIViewController+Alert.m */; };
+		F1F69907F4AC1CDE6C8CB3721EDA5766 /* AlivcPanInteractiveTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = D32C315BC49C0FDB3CED904D7B27C6C9 /* AlivcPanInteractiveTransition.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2822A4D1060AF2F73D8C9585822E4596 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 512E9227EDD61DE48E20A13E1CFBE310;
+			remoteInfo = AlivcVoiceCallSolo;
+		};
+		2B262D13CF44145753301EAE399D0DC9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA2DEE0B8B718C038CD9A0A2F557E97D;
+			remoteInfo = AFNetworking;
+		};
+		56C6108F2367452D25791A7A8B3F23A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 06BAB7E9569534C0FCC55282091A23C9;
+			remoteInfo = MBProgressHUD;
+		};
+		61537D4D9F750E82A6E59A62BA713B0D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA2DEE0B8B718C038CD9A0A2F557E97D;
+			remoteInfo = AFNetworking;
+		};
+		7F694495CD6B854804ED4268F95ADADD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 06BAB7E9569534C0FCC55282091A23C9;
+			remoteInfo = MBProgressHUD;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0991FA2E1FB2D199B651485CA2044811 /* AlivcPresentTransition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AlivcPresentTransition.m; sourceTree = "<group>"; };
+		0C071ACD772700817FFFD3D4E2C4C98C /* Pods-AlivcVoiceCallSoloClient-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AlivcVoiceCallSoloClient-resources.sh"; sourceTree = "<group>"; };
+		0D23CD0D0E2E31462EF9A52F3592674F /* UIViewController+Alert.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Alert.h"; sourceTree = "<group>"; };
+		0EA471397379D59929D05DD3CCAD5D30 /* NSBundle+AlivcVoiceCallSolo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSBundle+AlivcVoiceCallSolo.h"; sourceTree = "<group>"; };
+		10EDAEE42160656C5538FD04639130BD /* MBProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-prefix.pch"; sourceTree = "<group>"; };
+		18F17F24DA1331BDE52825C32DCB0C68 /* AFNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AFNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B3D0DC225CBC75BD5D5C7E4766CAF2F /* AlivcVoiceCallChannelViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AlivcVoiceCallChannelViewController.h; sourceTree = "<group>"; };
+		1C5C22E5C167D34CAFDDECA51D21A24F /* AlivcPanInteractiveTransition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AlivcPanInteractiveTransition.h; sourceTree = "<group>"; };
+		22F8728AE01517C43ABAC444FFEC5D29 /* Pods_AlivcVoiceCallSoloClient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AlivcVoiceCallSoloClient.framework; path = "Pods-AlivcVoiceCallSoloClient.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		28A6606C2CD4A4F8C19C835318BD17B5 /* AliRequestList.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AliRequestList.h; sourceTree = "<group>"; };
+		2C1D229785DA5DC659584A90159FAAC2 /* Pods-AlivcVoiceCallSoloClient.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AlivcVoiceCallSoloClient.debug.xcconfig"; sourceTree = "<group>"; };
+		2E9886E1646A0089370C28572D405D5C /* AlivcVoiceCallSettingViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AlivcVoiceCallSettingViewController.h; sourceTree = "<group>"; };
+		311B06376BA1BCCCC43F815BA01D22B3 /* AlivcVoiceCallSolo.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = AlivcVoiceCallSolo.bundle; path = AlivcVoiceCallSolo/AlivcVoiceCallSolo.bundle; sourceTree = "<group>"; };
+		384148530E19721DA87FEBC55E27F01E /* AlivcVoiceCallChattingViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AlivcVoiceCallChattingViewController.m; sourceTree = "<group>"; };
+		38E13B83930596A6A0ACA5D5BBAB4ACB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F3554472DB9C7E291440EA88CB5075B /* Pods-AlivcVoiceCallSoloClient-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AlivcVoiceCallSoloClient-acknowledgements.plist"; sourceTree = "<group>"; };
+		44B2ECF03288C888FB64F090A1A30D89 /* UIViewController+Alert.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Alert.m"; sourceTree = "<group>"; };
+		4795929799D86104E5D262BFCB3C57E8 /* MBProgressHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-umbrella.h"; sourceTree = "<group>"; };
+		4C2AD4BC9A9B7B94BDDFBDBFEDB2B867 /* AlivcDismissTransition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AlivcDismissTransition.m; sourceTree = "<group>"; };
+		524BDC2EFC0FCDB54E20A90D8E7DFD02 /* AlivcVoiceCallSolo.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AlivcVoiceCallSolo.xcconfig; sourceTree = "<group>"; };
+		5944D05E07429A0FAD41586941ED8AA1 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		5AB6CC24CDCDA2111469A8C8FB55024B /* AlivcIndicatorButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AlivcIndicatorButton.m; sourceTree = "<group>"; };
+		5E1F3A9E7F41CE9E21FC4D219CB488BD /* AlivcVoiceCallSolo-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AlivcVoiceCallSolo-prefix.pch"; sourceTree = "<group>"; };
+		65BF670AB620E0ECCBD197559C99867F /* Pods-AlivcVoiceCallSoloClient.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AlivcVoiceCallSoloClient.modulemap"; sourceTree = "<group>"; };
+		66C80321F962B92BDC7A669CBAF8ADC1 /* NSBundle+AlivcVoiceCallSolo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+AlivcVoiceCallSolo.m"; sourceTree = "<group>"; };
+		6D832E7F25BED3658E5004338DE7436E /* AlivcVoiceCallSolo.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = AlivcVoiceCallSolo.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		71538D10F769C05E92D2EC2812CE3D8B /* MBProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MBProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A3DAFF35770BCCF20651AF63FCD29F8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		7B37727AA0908233B04F8FEDA9C7DFAE /* AliBaseHttpClient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AliBaseHttpClient.m; sourceTree = "<group>"; };
+		83AFB6493A564B81E32AC2BEE3608C02 /* AFNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AFNetworking.framework; path = AFNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		854E5FAA839A6A55805B23613A22AEAD /* MBProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD-dummy.m"; sourceTree = "<group>"; };
+		8A4B0AE7A1EBE0658FB2FA04A8E1FF73 /* AliRTCSdk.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AliRTCSdk.framework; sourceTree = "<group>"; };
+		8A62189B91A3952680F9FC4B293F41C0 /* AlivcIndicatorButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AlivcIndicatorButton.h; sourceTree = "<group>"; };
+		8C1207FC6D0B99008AB427135E99734C /* AlivcVoiceCallSolo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AlivcVoiceCallSolo.modulemap; sourceTree = "<group>"; };
+		8D8F45396EA74C7503EBFA4CA2D349EE /* Pods-AlivcVoiceCallSoloClient-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AlivcVoiceCallSoloClient-frameworks.sh"; sourceTree = "<group>"; };
+		8EC012C904CA399930BE9C18ACA01F83 /* AliBaseHttpClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AliBaseHttpClient.h; sourceTree = "<group>"; };
+		914D6583209E13125B24F0326D5AC8D8 /* AlivcVoiceCallSolo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AlivcVoiceCallSolo-umbrella.h"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		98EED07F4C37A88D2C078687C102398A /* MBProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MBProgressHUD.modulemap; sourceTree = "<group>"; };
+		9BDC29928588FD833056DB7DF13D80A3 /* AlivcVoiceCallChannelViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AlivcVoiceCallChannelViewController.m; sourceTree = "<group>"; };
+		A030387B0021CA0B17218033E1C5A7AF /* AlivcVoiceCallSettingViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AlivcVoiceCallSettingViewController.m; sourceTree = "<group>"; };
+		A0BE1520DD93343BD6C218ADD9556E3A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A39A4422EAD2E7E0BC6496BCD347F8E4 /* AlivcVideoCallUserAuthrization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AlivcVideoCallUserAuthrization.m; sourceTree = "<group>"; };
+		A545BDFFFFD3A0F9582CF89DC046FF3C /* AliRequestList.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AliRequestList.m; sourceTree = "<group>"; };
+		A690008BE8437259979F9A4B9DE98C3E /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkReachabilityManager.m; path = AFNetworking/AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		AC6A6FF13174D2EF4EB23499DE4A74C1 /* copy-framework-resources.rb */ = {isa = PBXFileReference; includeInIndex = 1; path = "copy-framework-resources.rb"; sourceTree = "<group>"; };
+		AD6A48BDB2BB67BDE37CACEF91718B12 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkReachabilityManager.h; path = AFNetworking/AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		B2B738E30F652A88806E9242094E9A96 /* AlivcVoiceCallSolo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AlivcVoiceCallSolo.framework; path = AlivcVoiceCallSolo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B55E5AF26D18E1041F221FEF233D7F7D /* AlivcPresentTransition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AlivcPresentTransition.h; sourceTree = "<group>"; };
+		B76D96ED83F12404D8500A7B5C47498F /* MBProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		BBFFBC9C48608319B46E4C9A20BDAAD9 /* AlivcVideoCallUserAuthrization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AlivcVideoCallUserAuthrization.h; sourceTree = "<group>"; };
+		C5A3CEAAACBEB48CA3A12FC87FB34392 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7D1E491BFF9C7354A8A6A105F79A6F4 /* MBProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MBProgressHUD.framework; path = MBProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB23E2F4C9BA8868D35E4F75BCBD46C9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDD96EDB33771B655262969F355F7223 /* AFNetworking.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AFNetworking.modulemap; sourceTree = "<group>"; };
+		CEBAA69554D764A32B41EB75F0F1E53A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		D27F97F04B55E0D91655CE16BAAEA915 /* AFNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFNetworking-prefix.pch"; sourceTree = "<group>"; };
+		D32C315BC49C0FDB3CED904D7B27C6C9 /* AlivcPanInteractiveTransition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AlivcPanInteractiveTransition.m; sourceTree = "<group>"; };
+		D8ED91150E0D8F5F5A4972C6DBD31EBB /* Pods-AlivcVoiceCallSoloClient-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AlivcVoiceCallSoloClient-umbrella.h"; sourceTree = "<group>"; };
+		DC5BF53E333356EF1481891426D06C14 /* AlivcVoiceCallSolo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AlivcVoiceCallSolo-dummy.m"; sourceTree = "<group>"; };
+		DFD86F6BE36161EE0AA641D436BA7442 /* AFNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AFNetworking-dummy.m"; sourceTree = "<group>"; };
+		E50917B19ED1F6C2D78D9DF3EAE5BB10 /* AlivcDismissTransition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AlivcDismissTransition.h; sourceTree = "<group>"; };
+		E672EFE0ABC7F91B67CF6115E4D00CDE /* AFNetworking.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AFNetworking.xcconfig; sourceTree = "<group>"; };
+		E7083347E65D30C154B95BD9B41026B6 /* MBProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		EB4FC333DFBDECF922D1B9EFE95A4E95 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		EDC54E3F83FE0420ED4A51A8EE3B40A4 /* Pods-AlivcVoiceCallSoloClient.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AlivcVoiceCallSoloClient.release.xcconfig"; sourceTree = "<group>"; };
+		EF7B4C2911ABDFCFE48F8175F7304A81 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		F3C763DCCD711B047253863DE31F744D /* AFNetworking-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFNetworking-umbrella.h"; sourceTree = "<group>"; };
+		F3FF76575484F4756F7FEDEACB74E220 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		F435AC5754BE5F8DEA64237E6ECA56B0 /* AlivcVoiceCallChattingViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AlivcVoiceCallChattingViewController.h; sourceTree = "<group>"; };
+		F79EC6FE3305F400CAB6D19D4B2C0CBA /* Pods-AlivcVoiceCallSoloClient-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AlivcVoiceCallSoloClient-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FB620045CCE6DDD81F0ACB55BEE3AEC4 /* MBProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MBProgressHUD.xcconfig; sourceTree = "<group>"; };
+		FE6F41B43FB0133A5578094026831F77 /* Pods-AlivcVoiceCallSoloClient-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AlivcVoiceCallSoloClient-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1DE43D58A6C30A3F22FD132446B1CDBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18FFF2D023622975784EF8157DE78C25 /* Foundation.framework in Frameworks */,
+				DD86D33A1F80B04EBD1CDCBE56C072C5 /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC61910B5088AF24A3ACDFD2CE900825 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D034FD669405847426C0C64520583A5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6E5815154EE2F763B1C503624D402EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAC882FE339410B192AB24CA5057C5C6 /* AFNetworking.framework in Frameworks */,
+				50F056758F3013BF890F25D3A7916CE0 /* Foundation.framework in Frameworks */,
+				819857EBE78E8541B889BDBB9F88D61C /* MBProgressHUD.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7EC400F0F06A7CF4E62493C893224A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CD5FC9C807DED06053C19D42A1BAF72 /* CoreGraphics.framework in Frameworks */,
+				09A52D43A0419B7FBD34E41B22CF18B5 /* Foundation.framework in Frameworks */,
+				96555689DA4624082FAC00E6E40F3AA3 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F7C5E2A8FC3D2139AF05E7BD86F018C /* AlivcVoiceCallSolo */ = {
+			isa = PBXGroup;
+			children = (
+				8B6E520E43997B234C616762D52C3813 /* Channel */,
+				61C9804409C591505EA7D043B67B0C38 /* Chatting */,
+				C968D19FDEB6A05B95B91FE5C6BB48FD /* Pod */,
+				49EE9D92ABFD5D1CB70BCF01AFB7F610 /* Resources */,
+				256ADD2F5110CC337E96B3BEEEDF6C5F /* Setting */,
+				FC621C992CA8AD21495A73AA26218683 /* Support Files */,
+				A5CE3D6A82C252C677D1A2439C629372 /* Utils */,
+			);
+			name = AlivcVoiceCallSolo;
+			path = ../AlivcVoiceCallSolo;
+			sourceTree = "<group>";
+		};
+		256ADD2F5110CC337E96B3BEEEDF6C5F /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				2E9886E1646A0089370C28572D405D5C /* AlivcVoiceCallSettingViewController.h */,
+				A030387B0021CA0B17218033E1C5A7AF /* AlivcVoiceCallSettingViewController.m */,
+			);
+			name = Setting;
+			path = AlivcVoiceCallSolo/Setting;
+			sourceTree = "<group>";
+		};
+		3F19547743D4341546766F2E7EABA5B8 /* AliRTCSdk */ = {
+			isa = PBXGroup;
+			children = (
+				592C9F79120B4508AB0399628CD545C8 /* AliRTCSdk */,
+			);
+			name = AliRTCSdk;
+			path = AliRTCSdk;
+			sourceTree = "<group>";
+		};
+		49EE9D92ABFD5D1CB70BCF01AFB7F610 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				311B06376BA1BCCCC43F815BA01D22B3 /* AlivcVoiceCallSolo.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		4DBEBA30DA1F92D2CA05FCF6A1CBB60F /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				AD6A48BDB2BB67BDE37CACEF91718B12 /* AFNetworkReachabilityManager.h */,
+				A690008BE8437259979F9A4B9DE98C3E /* AFNetworkReachabilityManager.m */,
+			);
+			name = Reachability;
+			sourceTree = "<group>";
+		};
+		56D210FBEE74F036CEFB202E441FC671 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				83AFB6493A564B81E32AC2BEE3608C02 /* AFNetworking.framework */,
+				B2B738E30F652A88806E9242094E9A96 /* AlivcVoiceCallSolo.framework */,
+				C7D1E491BFF9C7354A8A6A105F79A6F4 /* MBProgressHUD.framework */,
+				22F8728AE01517C43ABAC444FFEC5D29 /* Pods_AlivcVoiceCallSoloClient.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		592C9F79120B4508AB0399628CD545C8 /* AliRTCSdk */ = {
+			isa = PBXGroup;
+			children = (
+				DB824AC2EA0FDE5A98E3F65DAE67BE1D /* Frameworks */,
+			);
+			name = AliRTCSdk;
+			sourceTree = "<group>";
+		};
+		598303D5DAF0E8114273F6F15DD207BE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18F17F24DA1331BDE52825C32DCB0C68 /* AFNetworking.framework */,
+				71538D10F769C05E92D2EC2812CE3D8B /* MBProgressHUD.framework */,
+				9D3996633A8506558D764FE8032AD671 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		60E7C606B3A5645B07E3D00797793100 /* Http */ = {
+			isa = PBXGroup;
+			children = (
+				8EC012C904CA399930BE9C18ACA01F83 /* AliBaseHttpClient.h */,
+				7B37727AA0908233B04F8FEDA9C7DFAE /* AliBaseHttpClient.m */,
+				28A6606C2CD4A4F8C19C835318BD17B5 /* AliRequestList.h */,
+				A545BDFFFFD3A0F9582CF89DC046FF3C /* AliRequestList.m */,
+			);
+			name = Http;
+			path = Http;
+			sourceTree = "<group>";
+		};
+		61C9804409C591505EA7D043B67B0C38 /* Chatting */ = {
+			isa = PBXGroup;
+			children = (
+				F435AC5754BE5F8DEA64237E6ECA56B0 /* AlivcVoiceCallChattingViewController.h */,
+				384148530E19721DA87FEBC55E27F01E /* AlivcVoiceCallChattingViewController.m */,
+				C50B5C2B0146D59A77E4ACE961474277 /* Transition */,
+			);
+			name = Chatting;
+			path = AlivcVoiceCallSolo/Chatting;
+			sourceTree = "<group>";
+		};
+		6228B8C9F8B6E0B8E29061B980C7224B /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				B76D96ED83F12404D8500A7B5C47498F /* MBProgressHUD.h */,
+				E7083347E65D30C154B95BD9B41026B6 /* MBProgressHUD.m */,
+				65EE4D236C087CB9DA420F019D6BC068 /* Support Files */,
+			);
+			name = MBProgressHUD;
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		6557D504A21E91C1507E559DBB207346 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CDD96EDB33771B655262969F355F7223 /* AFNetworking.modulemap */,
+				E672EFE0ABC7F91B67CF6115E4D00CDE /* AFNetworking.xcconfig */,
+				DFD86F6BE36161EE0AA641D436BA7442 /* AFNetworking-dummy.m */,
+				D27F97F04B55E0D91655CE16BAAEA915 /* AFNetworking-prefix.pch */,
+				F3C763DCCD711B047253863DE31F744D /* AFNetworking-umbrella.h */,
+				A0BE1520DD93343BD6C218ADD9556E3A /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AFNetworking";
+			sourceTree = "<group>";
+		};
+		65EE4D236C087CB9DA420F019D6BC068 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				38E13B83930596A6A0ACA5D5BBAB4ACB /* Info.plist */,
+				98EED07F4C37A88D2C078687C102398A /* MBProgressHUD.modulemap */,
+				FB620045CCE6DDD81F0ACB55BEE3AEC4 /* MBProgressHUD.xcconfig */,
+				854E5FAA839A6A55805B23613A22AEAD /* MBProgressHUD-dummy.m */,
+				10EDAEE42160656C5538FD04639130BD /* MBProgressHUD-prefix.pch */,
+				4795929799D86104E5D262BFCB3C57E8 /* MBProgressHUD-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MBProgressHUD";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				91DED1567955940C8D15974C00CB3F6D /* Development Pods */,
+				598303D5DAF0E8114273F6F15DD207BE /* Frameworks */,
+				8247A4CCA88750E7538C3330094B4A53 /* Pods */,
+				56D210FBEE74F036CEFB202E441FC671 /* Products */,
+				F5B5F5BD1F58B13CA8EB34EA21ECE67D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8247A4CCA88750E7538C3330094B4A53 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				949D7034D39B084F4DA5333531961989 /* AFNetworking */,
+				3F19547743D4341546766F2E7EABA5B8 /* AliRTCSdk */,
+				6228B8C9F8B6E0B8E29061B980C7224B /* MBProgressHUD */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8B6E520E43997B234C616762D52C3813 /* Channel */ = {
+			isa = PBXGroup;
+			children = (
+				1B3D0DC225CBC75BD5D5C7E4766CAF2F /* AlivcVoiceCallChannelViewController.h */,
+				9BDC29928588FD833056DB7DF13D80A3 /* AlivcVoiceCallChannelViewController.m */,
+				FBFFF886BB6A065426B8470F9081C539 /* View */,
+			);
+			name = Channel;
+			path = AlivcVoiceCallSolo/Channel;
+			sourceTree = "<group>";
+		};
+		91DED1567955940C8D15974C00CB3F6D /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0F7C5E2A8FC3D2139AF05E7BD86F018C /* AlivcVoiceCallSolo */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		949D7034D39B084F4DA5333531961989 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				4DBEBA30DA1F92D2CA05FCF6A1CBB60F /* Reachability */,
+				6557D504A21E91C1507E559DBB207346 /* Support Files */,
+			);
+			name = AFNetworking;
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		9D3996633A8506558D764FE8032AD671 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				EF7B4C2911ABDFCFE48F8175F7304A81 /* CoreGraphics.framework */,
+				F3FF76575484F4756F7FEDEACB74E220 /* Foundation.framework */,
+				CEBAA69554D764A32B41EB75F0F1E53A /* QuartzCore.framework */,
+				5944D05E07429A0FAD41586941ED8AA1 /* SystemConfiguration.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		A5CE3D6A82C252C677D1A2439C629372 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				BBFFBC9C48608319B46E4C9A20BDAAD9 /* AlivcVideoCallUserAuthrization.h */,
+				A39A4422EAD2E7E0BC6496BCD347F8E4 /* AlivcVideoCallUserAuthrization.m */,
+				0EA471397379D59929D05DD3CCAD5D30 /* NSBundle+AlivcVoiceCallSolo.h */,
+				66C80321F962B92BDC7A669CBAF8ADC1 /* NSBundle+AlivcVoiceCallSolo.m */,
+				0D23CD0D0E2E31462EF9A52F3592674F /* UIViewController+Alert.h */,
+				44B2ECF03288C888FB64F090A1A30D89 /* UIViewController+Alert.m */,
+				60E7C606B3A5645B07E3D00797793100 /* Http */,
+			);
+			name = Utils;
+			path = AlivcVoiceCallSolo/Utils;
+			sourceTree = "<group>";
+		};
+		C50B5C2B0146D59A77E4ACE961474277 /* Transition */ = {
+			isa = PBXGroup;
+			children = (
+				E50917B19ED1F6C2D78D9DF3EAE5BB10 /* AlivcDismissTransition.h */,
+				4C2AD4BC9A9B7B94BDDFBDBFEDB2B867 /* AlivcDismissTransition.m */,
+				1C5C22E5C167D34CAFDDECA51D21A24F /* AlivcPanInteractiveTransition.h */,
+				D32C315BC49C0FDB3CED904D7B27C6C9 /* AlivcPanInteractiveTransition.m */,
+				B55E5AF26D18E1041F221FEF233D7F7D /* AlivcPresentTransition.h */,
+				0991FA2E1FB2D199B651485CA2044811 /* AlivcPresentTransition.m */,
+			);
+			name = Transition;
+			path = Transition;
+			sourceTree = "<group>";
+		};
+		C968D19FDEB6A05B95B91FE5C6BB48FD /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				6D832E7F25BED3658E5004338DE7436E /* AlivcVoiceCallSolo.podspec */,
+				EB4FC333DFBDECF922D1B9EFE95A4E95 /* LICENSE */,
+				7A3DAFF35770BCCF20651AF63FCD29F8 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		DB824AC2EA0FDE5A98E3F65DAE67BE1D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8A4B0AE7A1EBE0658FB2FA04A8E1FF73 /* AliRTCSdk.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DC768B774C3807B66D37222C65465519 /* Pods-AlivcVoiceCallSoloClient */ = {
+			isa = PBXGroup;
+			children = (
+				AC6A6FF13174D2EF4EB23499DE4A74C1 /* copy-framework-resources.rb */,
+				C5A3CEAAACBEB48CA3A12FC87FB34392 /* Info.plist */,
+				65BF670AB620E0ECCBD197559C99867F /* Pods-AlivcVoiceCallSoloClient.modulemap */,
+				F79EC6FE3305F400CAB6D19D4B2C0CBA /* Pods-AlivcVoiceCallSoloClient-acknowledgements.markdown */,
+				3F3554472DB9C7E291440EA88CB5075B /* Pods-AlivcVoiceCallSoloClient-acknowledgements.plist */,
+				FE6F41B43FB0133A5578094026831F77 /* Pods-AlivcVoiceCallSoloClient-dummy.m */,
+				8D8F45396EA74C7503EBFA4CA2D349EE /* Pods-AlivcVoiceCallSoloClient-frameworks.sh */,
+				0C071ACD772700817FFFD3D4E2C4C98C /* Pods-AlivcVoiceCallSoloClient-resources.sh */,
+				D8ED91150E0D8F5F5A4972C6DBD31EBB /* Pods-AlivcVoiceCallSoloClient-umbrella.h */,
+				2C1D229785DA5DC659584A90159FAAC2 /* Pods-AlivcVoiceCallSoloClient.debug.xcconfig */,
+				EDC54E3F83FE0420ED4A51A8EE3B40A4 /* Pods-AlivcVoiceCallSoloClient.release.xcconfig */,
+			);
+			name = "Pods-AlivcVoiceCallSoloClient";
+			path = "Target Support Files/Pods-AlivcVoiceCallSoloClient";
+			sourceTree = "<group>";
+		};
+		F5B5F5BD1F58B13CA8EB34EA21ECE67D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DC768B774C3807B66D37222C65465519 /* Pods-AlivcVoiceCallSoloClient */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		FBFFF886BB6A065426B8470F9081C539 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8A62189B91A3952680F9FC4B293F41C0 /* AlivcIndicatorButton.h */,
+				5AB6CC24CDCDA2111469A8C8FB55024B /* AlivcIndicatorButton.m */,
+			);
+			name = View;
+			path = View;
+			sourceTree = "<group>";
+		};
+		FC621C992CA8AD21495A73AA26218683 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8C1207FC6D0B99008AB427135E99734C /* AlivcVoiceCallSolo.modulemap */,
+				524BDC2EFC0FCDB54E20A90D8E7DFD02 /* AlivcVoiceCallSolo.xcconfig */,
+				DC5BF53E333356EF1481891426D06C14 /* AlivcVoiceCallSolo-dummy.m */,
+				5E1F3A9E7F41CE9E21FC4D219CB488BD /* AlivcVoiceCallSolo-prefix.pch */,
+				914D6583209E13125B24F0326D5AC8D8 /* AlivcVoiceCallSolo-umbrella.h */,
+				CB23E2F4C9BA8868D35E4F75BCBD46C9 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Pods/Target Support Files/AlivcVoiceCallSolo";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		27D14F988384E9AAD8025DDE9D3FE496 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0C1BFB22AB61708E09E60B117CBDE29 /* MBProgressHUD-umbrella.h in Headers */,
+				C7B27E9C1954A218A97222C6E7301B20 /* MBProgressHUD.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DBDCE98FBBF1F6D38A0A9284E6579ED /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7875715F3F022584B87ABE312B15EE93 /* Pods-AlivcVoiceCallSoloClient-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7843030CCD26B712685610D85DDDE298 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D345D273C3310AD6F22FFDBDD5A39D5 /* AFNetworking-umbrella.h in Headers */,
+				A028E46CF7F3393036D04566B937FA24 /* AFNetworkReachabilityManager.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9793D15465820F82EE448F30145D8E07 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27A2EC07F2AEA62686F4FC7E734BFABA /* AliBaseHttpClient.h in Headers */,
+				437359FB58E67F5EBAAF4A5CC3CB7F55 /* AliRequestList.h in Headers */,
+				4BDF08B7D6AE22975EF57DA7F7BF7FFD /* AlivcDismissTransition.h in Headers */,
+				B2B565586C0B252E7B5D6C9F51E09334 /* AlivcIndicatorButton.h in Headers */,
+				364D77586349949122EBF6D97A7FB95F /* AlivcPanInteractiveTransition.h in Headers */,
+				272A022EEAE8C453F1E933F5900B957A /* AlivcPresentTransition.h in Headers */,
+				655B6966723AEB96514D658C1175D686 /* AlivcVideoCallUserAuthrization.h in Headers */,
+				3A0AB6F9D381A7A866029436BA069FED /* AlivcVoiceCallChannelViewController.h in Headers */,
+				735A249D8014EE82095F441B1D543653 /* AlivcVoiceCallChattingViewController.h in Headers */,
+				5894638E2EFCE727B792F74A7ACB3AD3 /* AlivcVoiceCallSettingViewController.h in Headers */,
+				E04F0554991BD64659BC489A6F7036FA /* AlivcVoiceCallSolo-umbrella.h in Headers */,
+				987220C6D6C509BE6273F7F3D9EC0385 /* NSBundle+AlivcVoiceCallSolo.h in Headers */,
+				C3637C782091C50F420A7A95F790CE3E /* UIViewController+Alert.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		06BAB7E9569534C0FCC55282091A23C9 /* MBProgressHUD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61D76EFA708261A54929805436144C52 /* Build configuration list for PBXNativeTarget "MBProgressHUD" */;
+			buildPhases = (
+				27D14F988384E9AAD8025DDE9D3FE496 /* Headers */,
+				9E456875F26209E84F2BEE293F9FB9F2 /* Sources */,
+				C7EC400F0F06A7CF4E62493C893224A7 /* Frameworks */,
+				C2AA8DEE182AAFDB3EDFC418227F3C22 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MBProgressHUD;
+			productName = MBProgressHUD;
+			productReference = C7D1E491BFF9C7354A8A6A105F79A6F4 /* MBProgressHUD.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		512E9227EDD61DE48E20A13E1CFBE310 /* AlivcVoiceCallSolo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD7B9045C2F0DD325B396CAB53FC52FB /* Build configuration list for PBXNativeTarget "AlivcVoiceCallSolo" */;
+			buildPhases = (
+				9793D15465820F82EE448F30145D8E07 /* Headers */,
+				B4C3FB26E97D83EF1F6C6726249FCBB9 /* Sources */,
+				B6E5815154EE2F763B1C503624D402EE /* Frameworks */,
+				E296E82FEBA98216FF8656D5CEE6D31C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA03F15429005772041FDB28EF4919A4 /* PBXTargetDependency */,
+				8D5AA557115345F4A7073B87A5408AF9 /* PBXTargetDependency */,
+			);
+			name = AlivcVoiceCallSolo;
+			productName = AlivcVoiceCallSolo;
+			productReference = B2B738E30F652A88806E9242094E9A96 /* AlivcVoiceCallSolo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AA2DEE0B8B718C038CD9A0A2F557E97D /* AFNetworking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8390863D210A4CFFECC37F1EC92979F0 /* Build configuration list for PBXNativeTarget "AFNetworking" */;
+			buildPhases = (
+				7843030CCD26B712685610D85DDDE298 /* Headers */,
+				3AD4713B753924FFC082C9D559E0692B /* Sources */,
+				1DE43D58A6C30A3F22FD132446B1CDBD /* Frameworks */,
+				B5CACD68E6483ECBC369FA82161EFF47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AFNetworking;
+			productName = AFNetworking;
+			productReference = 83AFB6493A564B81E32AC2BEE3608C02 /* AFNetworking.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BF58DDD2FED959EE8FA861C0F7FC2E94 /* Pods-AlivcVoiceCallSoloClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4AEEDA9AED83C2982B3452206973739 /* Build configuration list for PBXNativeTarget "Pods-AlivcVoiceCallSoloClient" */;
+			buildPhases = (
+				4DBDCE98FBBF1F6D38A0A9284E6579ED /* Headers */,
+				6830C0AABC166FE18FCB523792BB0583 /* Sources */,
+				AC61910B5088AF24A3ACDFD2CE900825 /* Frameworks */,
+				702E4C8BB3001CAE30CEF2702F514434 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B19FCB7EBA2E4E90977313D23CE981F0 /* PBXTargetDependency */,
+				04AAEE88CCA3F2A2882641634C74C96A /* PBXTargetDependency */,
+				BD37AA4ADE3290A722CB63484F16600F /* PBXTargetDependency */,
+			);
+			name = "Pods-AlivcVoiceCallSoloClient";
+			productName = "Pods-AlivcVoiceCallSoloClient";
+			productReference = 22F8728AE01517C43ABAC444FFEC5D29 /* Pods_AlivcVoiceCallSoloClient.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 56D210FBEE74F036CEFB202E441FC671 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA2DEE0B8B718C038CD9A0A2F557E97D /* AFNetworking */,
+				512E9227EDD61DE48E20A13E1CFBE310 /* AlivcVoiceCallSolo */,
+				06BAB7E9569534C0FCC55282091A23C9 /* MBProgressHUD */,
+				BF58DDD2FED959EE8FA861C0F7FC2E94 /* Pods-AlivcVoiceCallSoloClient */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		702E4C8BB3001CAE30CEF2702F514434 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5CACD68E6483ECBC369FA82161EFF47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2AA8DEE182AAFDB3EDFC418227F3C22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E296E82FEBA98216FF8656D5CEE6D31C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22E22ED5B0CAACAF54471E5D4859F23B /* AlivcVoiceCallSolo.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3AD4713B753924FFC082C9D559E0692B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				573995DB82413232B16E57154BDA30D5 /* AFNetworking-dummy.m in Sources */,
+				E81FCE7970B4B65B1C0F8AF0301DDE04 /* AFNetworkReachabilityManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6830C0AABC166FE18FCB523792BB0583 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6E31821EBA15E53753B8D0A7A66EB9C /* Pods-AlivcVoiceCallSoloClient-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E456875F26209E84F2BEE293F9FB9F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5EA4CCB3DB99BE68B0013CF58AED9B5 /* MBProgressHUD-dummy.m in Sources */,
+				3767ED1ABC330FCDE90EDEC89711E244 /* MBProgressHUD.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4C3FB26E97D83EF1F6C6726249FCBB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5EF4B07C6D9221115D75B24C8A60F6C /* AliBaseHttpClient.m in Sources */,
+				2ED310995748E1E7FDB3229E4FA0C06A /* AliRequestList.m in Sources */,
+				70B277A157ED7556AC1A691C79FD4C1A /* AlivcDismissTransition.m in Sources */,
+				0ED49930A4C84955961244C919FAA970 /* AlivcIndicatorButton.m in Sources */,
+				F1F69907F4AC1CDE6C8CB3721EDA5766 /* AlivcPanInteractiveTransition.m in Sources */,
+				A1BC2ADC09E57EFB184D29E37832C258 /* AlivcPresentTransition.m in Sources */,
+				6D099AAF6A96ACFB9865158182F7A4BD /* AlivcVideoCallUserAuthrization.m in Sources */,
+				829F0BC37A458596F6823FF400F4B075 /* AlivcVoiceCallChannelViewController.m in Sources */,
+				15803E9D758A04D796936C3FB9C5A2E0 /* AlivcVoiceCallChattingViewController.m in Sources */,
+				E24F4AE16F96972B99AA6BD0DD314537 /* AlivcVoiceCallSettingViewController.m in Sources */,
+				022628ADCFBA27E261156364AF91E190 /* AlivcVoiceCallSolo-dummy.m in Sources */,
+				60921674BBF80E51432174CF73F484A8 /* NSBundle+AlivcVoiceCallSolo.m in Sources */,
+				EA958A07AACBE31F531AEF9E344CDEE5 /* UIViewController+Alert.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04AAEE88CCA3F2A2882641634C74C96A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AlivcVoiceCallSolo;
+			target = 512E9227EDD61DE48E20A13E1CFBE310 /* AlivcVoiceCallSolo */;
+			targetProxy = 2822A4D1060AF2F73D8C9585822E4596 /* PBXContainerItemProxy */;
+		};
+		8D5AA557115345F4A7073B87A5408AF9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MBProgressHUD;
+			target = 06BAB7E9569534C0FCC55282091A23C9 /* MBProgressHUD */;
+			targetProxy = 56C6108F2367452D25791A7A8B3F23A9 /* PBXContainerItemProxy */;
+		};
+		AA03F15429005772041FDB28EF4919A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AFNetworking;
+			target = AA2DEE0B8B718C038CD9A0A2F557E97D /* AFNetworking */;
+			targetProxy = 2B262D13CF44145753301EAE399D0DC9 /* PBXContainerItemProxy */;
+		};
+		B19FCB7EBA2E4E90977313D23CE981F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AFNetworking;
+			target = AA2DEE0B8B718C038CD9A0A2F557E97D /* AFNetworking */;
+			targetProxy = 61537D4D9F750E82A6E59A62BA713B0D /* PBXContainerItemProxy */;
+		};
+		BD37AA4ADE3290A722CB63484F16600F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MBProgressHUD;
+			target = 06BAB7E9569534C0FCC55282091A23C9 /* MBProgressHUD */;
+			targetProxy = 7F694495CD6B854804ED4268F95ADADD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0AFE2DF5A415E32ED9AD38D9BD5515AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 524BDC2EFC0FCDB54E20A90D8E7DFD02 /* AlivcVoiceCallSolo.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AlivcVoiceCallSolo/AlivcVoiceCallSolo-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AlivcVoiceCallSolo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AlivcVoiceCallSolo/AlivcVoiceCallSolo.modulemap";
+				PRODUCT_MODULE_NAME = AlivcVoiceCallSolo;
+				PRODUCT_NAME = AlivcVoiceCallSolo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1CFB9AB6014B1885E88571DBD8F28CCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 524BDC2EFC0FCDB54E20A90D8E7DFD02 /* AlivcVoiceCallSolo.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AlivcVoiceCallSolo/AlivcVoiceCallSolo-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AlivcVoiceCallSolo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AlivcVoiceCallSolo/AlivcVoiceCallSolo.modulemap";
+				PRODUCT_MODULE_NAME = AlivcVoiceCallSolo;
+				PRODUCT_NAME = AlivcVoiceCallSolo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1D7B9E6EB51BEA2BD5EF8D477F22C935 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB620045CCE6DDD81F0ACB55BEE3AEC4 /* MBProgressHUD.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MBProgressHUD/MBProgressHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MBProgressHUD/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MBProgressHUD/MBProgressHUD.modulemap";
+				PRODUCT_MODULE_NAME = MBProgressHUD;
+				PRODUCT_NAME = MBProgressHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		578A26C48C02726381CEF4B2DC225B92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB620045CCE6DDD81F0ACB55BEE3AEC4 /* MBProgressHUD.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MBProgressHUD/MBProgressHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MBProgressHUD/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MBProgressHUD/MBProgressHUD.modulemap";
+				PRODUCT_MODULE_NAME = MBProgressHUD;
+				PRODUCT_NAME = MBProgressHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		85B95B1234E227C814CCC2C7902D0916 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		86BD22B19F691071B3825D9207B5D63A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E672EFE0ABC7F91B67CF6115E4D00CDE /* AFNetworking.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AFNetworking/AFNetworking-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AFNetworking/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AFNetworking/AFNetworking.modulemap";
+				PRODUCT_MODULE_NAME = AFNetworking;
+				PRODUCT_NAME = AFNetworking;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A73625DEBD810B78234FA1958C191C8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		A9A854C0EB72FA40749790E417FE22DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EDC54E3F83FE0420ED4A51A8EE3B40A4 /* Pods-AlivcVoiceCallSoloClient.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AlivcVoiceCallSoloClient/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AlivcVoiceCallSoloClient/Pods-AlivcVoiceCallSoloClient.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BCEF79EE19B38534409FE84F88916B81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E672EFE0ABC7F91B67CF6115E4D00CDE /* AFNetworking.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AFNetworking/AFNetworking-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AFNetworking/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AFNetworking/AFNetworking.modulemap";
+				PRODUCT_MODULE_NAME = AFNetworking;
+				PRODUCT_NAME = AFNetworking;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D4B7C5A601154CC735405D6B5AC3D28F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C1D229785DA5DC659584A90159FAAC2 /* Pods-AlivcVoiceCallSoloClient.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AlivcVoiceCallSoloClient/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AlivcVoiceCallSoloClient/Pods-AlivcVoiceCallSoloClient.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A73625DEBD810B78234FA1958C191C8C /* Debug */,
+				85B95B1234E227C814CCC2C7902D0916 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61D76EFA708261A54929805436144C52 /* Build configuration list for PBXNativeTarget "MBProgressHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				578A26C48C02726381CEF4B2DC225B92 /* Debug */,
+				1D7B9E6EB51BEA2BD5EF8D477F22C935 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8390863D210A4CFFECC37F1EC92979F0 /* Build configuration list for PBXNativeTarget "AFNetworking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86BD22B19F691071B3825D9207B5D63A /* Debug */,
+				BCEF79EE19B38534409FE84F88916B81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD7B9045C2F0DD325B396CAB53FC52FB /* Build configuration list for PBXNativeTarget "AlivcVoiceCallSolo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AFE2DF5A415E32ED9AD38D9BD5515AC /* Debug */,
+				1CFB9AB6014B1885E88571DBD8F28CCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4AEEDA9AED83C2982B3452206973739 /* Build configuration list for PBXNativeTarget "Pods-AlivcVoiceCallSoloClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4B7C5A601154CC735405D6B5AC3D28F /* Debug */,
+				A9A854C0EB72FA40749790E417FE22DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

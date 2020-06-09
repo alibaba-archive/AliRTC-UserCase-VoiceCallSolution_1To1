@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Aliyun Video Client</string>
+
+
+
+    <string name="solution_home_welcome_hint">WELCOME TO START THE \nVIDEO JOURNEY</string>
+    <string name="solution_wait_remind">Product features are under development...</string>
+    <string name="solution_unable_merge_remind">Unable Merge Desx</string>
+    <string name="resetstr">Switch Success, reloading data...</string>
+    <string name="alivc_apsara_video_regist">© 2009&#8211;2018 Copyright by Alibaba Cloud All rights reserved</string>
+    <string name="aliyun_min_record_duration_more_than">The minimum length must be greater than 0 seconds.</string>
+    <string name="aliyun_min_record_duration_less_than">The minimum length cannot be greater than 300 seconds.</string>
+
+    <string name="aliyun_max_record_duration_more_than">The maximum length must be greater than 0 seconds</string>
+    <string name="aliyun_max_record_duration_less_than">The maximum length connot be greater than 300 seconds</string>
+
+    <string name="alivc_apsara_video_title">Aparsara Video</string>
+</resources>

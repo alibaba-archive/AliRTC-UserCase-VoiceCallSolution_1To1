@@ -1,0 +1,42 @@
+PODS:
+  - AFNetworking/Reachability (3.2.1)
+  - AliRTCSdk (1.17.2):
+    - AliRTCSdk/AliRTCSdk (= 1.17.2)
+  - AliRTCSdk/AliRTCSdk (1.17.2)
+  - AlivcVoiceCallSolo (0.1.0):
+    - AFNetworking/Reachability
+    - AliRTCSdk (= 1.17.2)
+    - MBProgressHUD
+  - MBProgressHUD (1.1.0)
+
+DEPENDENCIES:
+  - AliRTCSdk (from `https://github.com/aliyunvideo/AliRtcSDK_iOS.git`, tag `1.17.2`)
+  - AlivcVoiceCallSolo (from `./AlivcVoiceCallSolo`)
+
+SPEC REPOS:
+  "podspec@podspec.alibaba-inc.com:alibaba-specs-mirror/":
+    - MBProgressHUD
+  "podspec@podspec.alibaba-inc.com:alibaba-specs/":
+    - AFNetworking
+
+EXTERNAL SOURCES:
+  AliRTCSdk:
+    :git: https://github.com/aliyunvideo/AliRtcSDK_iOS.git
+    :tag: 1.17.2
+  AlivcVoiceCallSolo:
+    :path: "./AlivcVoiceCallSolo"
+
+CHECKOUT OPTIONS:
+  AliRTCSdk:
+    :git: https://github.com/aliyunvideo/AliRtcSDK_iOS.git
+    :tag: 1.17.2
+
+SPEC CHECKSUMS:
+  AFNetworking: 3d51df1f091efe351758df27491098d1a9d5ac11
+  AliRTCSdk: 8731964f87fb21cfb2102b7b16af114dd680e465
+  AlivcVoiceCallSolo: 9f1a261ccebd8153657e97c3541b957dde29e519
+  MBProgressHUD: e4bfee13f0d2b4c3bc6bdcd94769cb3ed2d23a5e
+
+PODFILE CHECKSUM: 46095c2b1d0ac1989d5ce2723d7971cb13caa9b9
+
+COCOAPODS: 1.5.0

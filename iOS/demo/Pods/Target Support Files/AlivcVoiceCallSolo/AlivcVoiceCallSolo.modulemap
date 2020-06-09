@@ -1,0 +1,6 @@
+framework module AlivcVoiceCallSolo {
+  umbrella header "AlivcVoiceCallSolo-umbrella.h"
+
+  export *
+  module * { export * }
+}
