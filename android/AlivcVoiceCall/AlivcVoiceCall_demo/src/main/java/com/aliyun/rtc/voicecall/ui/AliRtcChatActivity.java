@@ -999,10 +999,7 @@ public class AliRtcChatActivity extends AppCompatActivity implements TitleBar.Me
         userInfo.setUserId(mRtcAuthInfo.getUserid());/* 用户ID */
         userInfo.setGslb(gslb.toArray(new String[0]));/* GSLB地址*/
         userInfo.setToken(mRtcAuthInfo.getToken());/*鉴权令牌Token*/
-        if (mEngine != null) {
-            AliUserInfoResponse.AliUserInfo.TurnBean turn = mRtcAuthInfo.getTurn();
-            mEngine.joinChannel(userInfo, turn == null ? getString(R.string.alivc_voicecall_string_me) : turn.getUsername());/* 用户显示名称 */
-        }
+        mEngine.joinChannel(userInfo,  getString(R.string.alivc_voicecall_string_me));/* 用户显示名称 */
     }
 
     @Override
